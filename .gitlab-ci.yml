@@ -1,0 +1,9 @@
+stages:
+  - build
+
+build-job:
+  stage: build
+  script:
+    - echo "🚀 GitLab CI is working!"
+    - echo "Project Name: $CI_PROJECT_NAME"
+    - echo "Pipeline ID: $CI_PIPELINE_ID"
